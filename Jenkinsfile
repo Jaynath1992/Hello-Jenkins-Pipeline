@@ -8,7 +8,7 @@ stage('please print hello')
 steps
 {
 sh 'echo Hello World'
-sh 'My name is Jaynath Kumar'
+sh 'echo My name is Jaynath Kumar'
 }
 }
 }
