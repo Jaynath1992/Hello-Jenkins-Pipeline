@@ -1,0 +1,35 @@
+pipeline
+{
+agent any
+stages
+{
+stage('Clone the source code')
+{
+steps
+{
+sh 'echo Clone the source code'
+}
+}
+stage('Test the code')
+{
+steps
+{
+sh 'echo Tested souce code'
+}
+}
+stage('Build the code')
+{
+steps
+{
+sh 'echo War file created'
+}
+}
+stage('Deploy test environment')
+{
+steps
+{
+sh 'echo Deployed to test environment'
+}
+}
+}
+}
